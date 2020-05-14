@@ -40,8 +40,12 @@
 			<div class="content-footer footer">
 				<div class="count-box">
 					<div class="img-holder icon">
-						<i class="fas fa-heart heart"></i>
-						<!-- <i class="fa fa-paper-plane" aria-hidden="true"></i> -->
+						<p id="heart-outline" onclick="like(event)">
+							<i class="far fa-heart heart-outline"></i>
+						</p>
+						<p id="heart" class="hide" onclick="unlike(event)">
+							<i class="fas fa-heart heart"></i>
+						</p>
 					</div>
 					<div class="img-holder icon">
 						<i class="fa fa-comment" aria-hidden="true"></i>

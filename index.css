@@ -74,8 +74,8 @@ i{
 	cursor: pointer;
 }
 
-.heart{
-	color: white;
+.heart, .heart-outline{
+	color: rgb(255, 81, 81);
 }
 
 .img-surfix{
@@ -86,6 +86,13 @@ i{
 	align-items: center;
 	background: var(--secondary-color);
 	padding: var(--inline-spacing);
+}
+
+.show{
+	display: block;
+}
+.hide{
+	display: none;
 }
 
 .content-footer{
