@@ -40,7 +40,7 @@
 	margin: auto;
 	margin-bottom: var(--standard-spacing);
 	border-radius: 3px;
-	border: 1px solid var(--primary-color);
+	border: 1.5px solid var(--primary-color);
 }
 .content-header{
 	height: 50px;
@@ -84,10 +84,17 @@ i{
 	max-height: 30px;
 	display: flex;
 	align-items: center;
-	background: var(--secondary-color);
 	padding: var(--inline-spacing);
 }
 
+input{
+	padding: var(--inline-spacing);
+	outline: none;
+	font-size: small;
+	width: 100%;
+	border:  none;
+	border-radius: 2px;
+}
 .show{
 	display: block;
 }
@@ -147,4 +154,17 @@ i{
 	right: 10px;
 	top: 10px;
 	font-size: small;
+}
+
+.content-comments{
+	/* display: none; */
+	background: var(--secondary-color);
+	padding: var(--inline-spacing);
+	overflow: hidden;
+}
+
+.comment{
+	display: flex;
+	font-size: small;
+	margin-bottom: var(--standard-spacing);
 }

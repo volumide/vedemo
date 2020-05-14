@@ -16,7 +16,7 @@ let toggle = () =>{
 	return setTimeout(() => {
 		heartOutline.classList.toggle('hide')
 		heart.classList.toggle('hide')
-	}, 500);
+	}, 200);
 }
 
 function like(){
